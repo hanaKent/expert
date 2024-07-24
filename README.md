@@ -6,8 +6,8 @@
 **Step 1:** Clone the repository of project and navigate to the code directory as shown below:
 
 ```bash
-git clone https://github.com/thinhdd6/cypress_cert_lambdatest_01.git
-cd cypress_cert_lambdatest_01
+git clone https://github.com/hanaKent/cypress_certJul24_02.git
+cd cypress_certJul24_02
 ```
 **Step 2:** Install the dependencies: 
  ```bash
