@@ -1,0 +1,29 @@
+{
+  "name": "cypress01",
+  "version": "1.0.0",
+  "description": "- npm has been installed with latest version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test_headless": "npx cypress run --browser chrome --headless"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanaKent/cypress_certJul24_02.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanaKent/cypress_certJul24_02/issues"
+  },
+  "homepage": "https://github.com/hanaKent/cypress_certJul24_02#readme",
+  "devDependencies": {
+    "cypress": "^13.13.1"
+  },
+  "dependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "@cypress-audit/lighthouse": "^1.4.2",
+    "cypress-axe": "^1.5.0",
+    "cypress-real-events": "^1.13.0"
+  }
+}
